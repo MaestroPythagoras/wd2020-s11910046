@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pertemuan-5</title>
+    </head>
+    <body>
+        <h3>1. Menampilkan Gambar</h3>
+        <img src="Kerinci_Maestro.jpg" alt="Kerinci_Maestro" />
+
+        <h3>2. Menampilkan Video</h3>
+        <h5>( AutoPlay dan Controls)</h5>
+        <video autoplay width="320" height="240">
+            <source src="Kerinci_1.mp4" />
+        </video>
+        <video controls width="320" height="240">
+            <source src="Kerinci_2.mp4" />
+        </video>
+          
+        <h3>2a. Fallback Video Format</h3>
+        <video width="800" height="600">    
+            <source src="Cikuray2821.mp4" type="video/mp4" />
+            <source src="Cikuray2821.mp4" type="video/ogg" />
+            <source src="Cikuray2821.mp4" type="video/webm" />
+        </video>
+        
+        <h3>3. Suara</h3>
+        <audio controls>
+            <source src="Still.mp3" type="audio/mp3" />
+        </audio>
+
+        <h3>3a. Fallback Audio Format</h3>
+        <audio controls>
+            <source src="Still.mp3" type="audio/ogg" />
+            <source src="Still.mp3" type="audio/mp3" />
+            <source src="Still.mp3" type="audio/wav" />
+            Your browser does not support the audio element.
+          </audio>
+          
+    </body>
+</html>
